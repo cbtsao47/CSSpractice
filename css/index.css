@@ -61,14 +61,14 @@ header nav a:hover {
   border-radius: 2px;
   position: relative;
 }
-.nav-toggle-label::before {
+.nav-toggle-label span::before {
   content: "";
   position: absolute;
   bottom: 7px;
   height: 2px;
   width: 2rem;
 }
-.nav-toggle-label::after {
+.nav-toggle-label span::after {
   content: "";
   position: absolute;
   top: 7px;
